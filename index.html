@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--Fontes-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Icone do font awesome-->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v6.1.1/css/all.css"
+      integrity="sha384-/frq1SRXYH/bSyou/HUp/hib7RVN1TawQYja658FEOodR/FQBKVqT9Ol+Oz3Olq5"
+      crossorigin="anonymous"
+    />
+    <!--Link com o arquivo css-->
+    <link rel="stylesheet" href="style.css" />
+    <title>Jorge Luís</title>
+  </head>
+  <body>
+    <header>
+      <div>
+        <img src="" alt="Logo" />
+      </div>
+      <ul>
+        <li><a id="linkgithub" href="">GitHub</a></li>
+        <li><a id="email" href="">Email</a></li>
+        <li><a id="celular" href="https://wa.me/5581985959401">Whatsapp</a></li>
+      </ul>
+    </header>
+    <main>
+      <section class="container">
+        <div class="name">
+          <h1>Jorge Luís Bandeira</h1>
+          <h5></h5>
+        </div>
+        <div id="arrow">
+          <i class="fa-solid fa-arrow-down"></i>
+        </div>
+        <div id="about">
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore cum
+            nam id sunt recusandae. Nam cupiditate libero officia. Ut, quae.
+            Sapiente porro atque amet excepturi dicta autem quas doloremque
+            voluptas?
+          </p>
+        </div>
+        <div class="form">
+          <form action="" >
+            <fieldset>
+              <br>
+              <legend>Insira seu email para receber mais informações</legend>
+            <input
+              id="email_digitado"
+              type="text"
+              placeholder="Email"
+            />
+            <button onclick="validacao()">Enviar!</button>
+            <!--Aqui estamos usando o método onclick para chamar uma função que criamos no scrit ao clicar no buttom-->
+          <br>
+          <br>
+          </fieldset>
+          </form>
+        </div>
+        <div class="container page-header">
+          <div id="success" class="alert alert-success">
+          <strong>Email válido</strong>
+        </div>
+        <div id="error" class="alert alert-danger">
+          <strong>Email Inválido</strong>
+      </div> 
+      </section>
+    </main>
+  </body>
+  <script src="./script.js"></script>
+</html>
